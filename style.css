@@ -1,7 +1,9 @@
-p {
+body {
+    background:#E7AE45 ;
+}
+h1 {
     text-align: center;
 }
-
-body {
-    background: #e7ae45;
+p {
+    text-align: center;
 }
