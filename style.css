@@ -7,7 +7,9 @@ body{
 #pizza {
 width: 100%;
 }
-
+#cardapio {
+    width: 100%;
+}
 
 h1{
     text-align: center;
