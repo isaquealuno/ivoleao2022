@@ -8,7 +8,8 @@ body{
 width: 100%;
 }
 #cardapio {
-    width: 100%;
+    width: 100%
+    center;
 }
 
 h1{
