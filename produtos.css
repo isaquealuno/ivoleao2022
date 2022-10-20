@@ -26,3 +26,8 @@ nav a {
     font-size: 22px;
     text-decoration: none;
 }
+
+.img {
+    width: 350px;
+    height: 250px;
+}
