@@ -33,19 +33,20 @@ p {
     text-align: center
 }
 
-#pizza {
+#logo {
     width: 350PX;
     height: 250px;
-}
-
-#cardapio {
-    width: 100%
-    
 }
 
 h1{
     text-align: center;
 }
+
+.pizza {
+    width: 350px;
+    height: 250px;
+}
+
 strong {
     color:rgb(219, 43, 12)
 }
