@@ -40,3 +40,7 @@ nav a {
 .produtos li {
     display: inline-block;
 }
+
+body{
+    background-color: #e49c54;
+}
