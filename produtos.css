@@ -48,3 +48,8 @@ nav a {
 body{
     background-color: #ffc340;
 }
+
+.produtos h2 {
+    font-size: 30px;
+    font-weight: bold;
+}
