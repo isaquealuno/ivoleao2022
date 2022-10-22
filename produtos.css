@@ -53,6 +53,10 @@ body{
     font-size: 30px;
     font-weight: bold;
 }
+.produto-descriçao {
+    font-size: 18px;
+    
+}
 
 .produto-preço {
     font-size: 22px;
