@@ -27,6 +27,8 @@ nav a {
     text-decoration: none;
 }
 
+nav a :hover
+
 .imagem {
     width: 350px;
     height: 150px;
