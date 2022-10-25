@@ -28,6 +28,8 @@ nav a {
 }
 
 nav a :hover
+    color: #hc78c19;
+    text-decoration:focus-within;
 
 .imagem {
     width: 350px;
