@@ -27,7 +27,7 @@ nav a {
     text-decoration: none;
 }
 
-nav a :hover {
+nav a:hover {
     color:aliceblue;
     text-decoration: underline;
 }
