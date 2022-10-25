@@ -27,9 +27,10 @@ nav a {
     text-decoration: none;
 }
 
-nav a :hover
-    color: #hc78c19;
-    text-decoration:focus-within;
+nav a :hover {
+    color:aliceblue;
+    text-decoration: underline;
+}
 
 .imagem {
     width: 350px;
