@@ -57,6 +57,10 @@ nav a:hover {
     border-radius: 10px;
 }
 
+.produtos li:hover {
+    border-color: aliceblue;
+}
+
 body{
     background-color: #ffc340;
 }
