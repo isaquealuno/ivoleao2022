@@ -1,45 +1,94 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <meta charset="UTF8">
+        <meta charset="UTF-8">
         <title>Contato</title>
+
         <link rel="stylesheet" href="reset.css">
-        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="produtos.css">
     </head>
+    <body>
+        <header>
+            <div class="caixa">
+                <h1><img src="logo.png" id="logo" alt="Logo do Divina Pizza"></h1>
 
-<body>
-  <header>
-    <div class="caixa">
-      <h1><img src="pizza.logo.jpg"></h1>
-      <nav>
-        <ul>
-          <li><a href="index.html">HOME</a></li>
-          <li><a href="produtos.html">produtos</a></li>
-          <li><a href="contato.html">contato</a></li>
-        </ul>
-      </nav>
-    </div>
-  </header>
-  
-  <main>
-   <form>
-    <label for="nomesobrenome">Nome e Sobrenome</label>
-      <input type="text" id="nomesobrenome">
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="produtos.html">Produtos</a></li>
+                        <li><a href="contato.html">Contato</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
 
-      <label for="email">Email</label>
-      <input type="text" id="email">
+    <main>
+        <form>
+            <label for="nomesobrenome">Nome e Sobrenome</label>
+            <input type="text" id="nomesobrenome" class="input-padrao" required>
 
-      <label for="telefone">Telefone</label>
-      <input type="text" id="telefone">
+            <label for="email">E-Mail</label>
+            <input type="email" id="email" class="input-padrao" required placeholder="seuemail@dominio.com">
 
-      <input type="submit">
-   </form>
-  </main>
+            <label for="telefone">Telefone</label>
+            <input type="tel" id="telefone" class="input-padrao" required placeholder="(XX) XXXXX-XXXX">
 
-  <footer>
-    <img src="pizza.logo.jpg">
-    <p>&copy; Copyright Divina Pizza -2022</p>
+            <label for="mensagem">Mensagem</label>
+            <textarea cols="70" rows="10" id="mensagem" class="input-padrao" required></textarea>
 
- </footer>
-</body>
+            <fieldset>
+                <p>Como prefere o nosso contato?</p>
+                <label for="radio-email"><input type="radio" name="contato" value="email" id="radio-email"> E-Mail</label>
+
+                <label for="radio-telefone"><input type="radio" name="contato" value="telefone" id="radio-telefone"> Telefone</label>
+                
+
+                <label for="radio-whatapp"><input type="radio" name="contato" value="whatsapp" id="radio-whatsapp"> Whatsapp</label>
+            </fieldset>
+
+            <fieldset>
+                <legend>Qual horário prefere ser atendido?</legend>
+                <select>
+                    <option>Manhã</option>
+                    <option>Tarde</option>
+                    <option>Noite</option>
+                </select>
+            </fieldset>
+            
+            <label><input type="checkbox" checked> de receber nossas novidades por Email?</label>
+            
+            <input type="submit" value="Enviar Formulário" class="enviar">
+        
+        </form>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>Dia</th>
+                    <th>Horário</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Segunda</td>
+                    <td>8h ~ 20h</td>
+                </tr>
+                <tr>
+                    <td>Quarta</td>
+                    <td>8h ~ 20h</td>
+                </tr>
+                <tr>
+                    <td>Sexta</td>
+                    <td>8h ~ 20h</td>
+                </tr>
+            </tbody>
+        </table>
+    
+    </main>
+
+    <footer>
+        <img src="logofooter.png" class="logo-pizza">
+        <p class="copyrigth">&copy;Copyrigth Divina Pizza - 2022</p>
+    </footer>
+    </body>
 </html>

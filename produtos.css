@@ -1,45 +1,18 @@
 html {
-	background: linear-gradient(#7c622b,#ffcb59);
-    margin: 0 auto;
+	background: linear-gradient(rgb(11, 10, 61),rgb(221, 5, 185));
+}
+
+body {
+	margin: 0 auto;
 }
 
 header {
 	padding: 20px 0;
 }
 
-body {
-	font-family: 'Nunito', sans-serif;
-}
-
-strong {
-    color: #ff0000;
-}
-
-h1 {
-    color: #ff0000;
-}
-
-h2 {
-    color: #ff0000;
-}
-
-h3 {
-    color: #ff0000;
-}
-
-p {
-    text-align: left;
-    text-align: justify;
-    color: aliceblue;
-    font-family: Sans-serif;
-    font-size: 20px;
-    font-weight: 400;
-    line-height: 1.4em;
-}
-
 .caixa {
 	position: relative;
-	width: 940px;
+	width: 1000px;
 	margin: 0 auto;
 }
 
@@ -47,6 +20,16 @@ nav {
 	position: absolute;
 	top: 110px;
 	right: 0;
+}
+
+h2 {
+	color: aliceblue;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+p {
+	color: aliceblue;
 }
 
 nav li {
@@ -67,11 +50,11 @@ nav a:hover {
 }
 
 div {
-	padding: 50px 0;
+	padding: 25px 0;
 }
 
 .produtos {
-	width: 940px;
+	width: 1000px;
 	margin: 0 auto;
 	padding:  50px 0;
 }
@@ -121,16 +104,15 @@ footer {
 
 }
 
-.copyrigth {
-	margin-top: 15px;
-	color: rgb(255, 255, 255);
-	font-size: 15px;
-	text-align: center;
+.copyright {
+	color: #FFFFFF;
+    font-size: 13px;
+
 }
 
 main {
  	width: 940px;
-	margin: 0 auto;
+ 	margin: 0 auto;
 }
 
 form {
@@ -183,28 +165,19 @@ thead {
 }
 
 td, th {
-	border: 1px solid #000000;
+	border: 1px solid aliceblue;
 	padding: 8px 15px;
+	color: aliceblue;
 }
 
-.conteudo-beneficios {
-	width: 640px;
-	margin: 0 auto;
+label {
+	color: aliceblue;
 }
 
-.beneficios {
-	padding: 3em 0;
-	background: #faa200;
-}
-
-.mapa p {
-	margin: 0 0 2em;
-	text-align: center;
-}
-
-.mapa-conteudo {
-	width: 940px;
-	margin: 0 auto;
+form label, form p {
+	display: block;
+	font-size: 20px;
+	margin: 0 0 10px;
 }
 
 .logo-pizza {
@@ -212,79 +185,46 @@ td, th {
 	height: 200px;
 }
 
-.video {
-	width: 560px;
-	margin: 2em auto;
-}
-
-.banner {
+#banner {
 	width: 100%;
 	height: 250px;
-	border-radius: 10px;
-	object-fit: cover;
-}
-  
-.titulo-principal {
-	text-align: center;
-	font-size: 2em;
-	margin: 0 0 1em;
-	clear: left;
-}
-  
-.principal {
-	padding: 3em 0;
-	width: 940px;
-	margin: 0 auto;
-}
-  
-.principal p {
-	margin: 0 0 1em;
-}
-  
-.principal strong {
-	font-weight: bold;
-}
-  
-.panfleto {
-	width: 150px;
-	float: left;
-	margin: 0 20px 20px 0;
 }
 
-.imagem-beneficios {
-	width: 60%;
+#logo {
+	width: 300px;
+	height: 300px;
 }
 
-.lista-beneficios {
-	width: 40%;
-	display: inline-block;
-	vertical-align: top;
-}
-  
-.itens {
-	line-height: 1.5;
-	color: aliceblue;
-}
-  
-.itens:first-child {
-	font-weight: bold;
-}
-  
-.itens:before {
-	content: "✸";
-}
-  
-
-#banner {
-    width: 100%;
-    height: 300px;
-    border-radius: 50px;
+#fotosprodutos {
+	height: 300px;
+	width: 250px;
+	border-radius: 25px;
 }
 
-.logo {
-    width: 300px;
-    height: 300px;
+#letras {
+	font-family: "Lucida Console", Monaco, monospace;
+	font-size: 25px;
+	letter-spacing: 0px;
+	word-spacing: -5px;
+	color: #FFFFFF;
+	font-weight: 700;
+	text-decoration: none solid rgb(68, 68, 68);
+	font-style: normal;
+	font-variant: small-caps;
+	text-transform: capitalize;
+	text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px #49ff18, 0 0 30px #49FF18, 0 0 40px #49FF18, 0 0 55px #49FF18, 0 0 75px #49ff18, 0px 0px 0px rgba(206,0,0,0);
 }
 
-
-
+#preço {
+	font-family: "Lucida Console", Monaco, monospace;
+	font-size: 25px;
+	letter-spacing: 0px;
+	word-spacing: -5px;
+	color: #FFFFFF;
+	font-weight: 700;
+	text-decoration: none solid rgb(68, 68, 68);
+	font-style: normal;
+	font-variant: small-caps;
+	text-transform: capitalize;
+	text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px #49ff18, 0 0 30px #49FF18, 0 0 40px #49FF18, 0 0 55px #49FF18, 0 0 75px #49ff18, 0px 0px 0px rgba(206,0,0,0);
+}
